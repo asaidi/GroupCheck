@@ -1,0 +1,29 @@
+section {
+	padding: 30px;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 20px;
+}
+header {
+	border-bottom: 1px solid #f0f0f0;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+button.checked {
+	background: red;
+}
+li {
+	list-style: none;
+	cursor: pointer;
+	display: block;
+	padding: 10px;
+}
+.checked {
+	position: relative;
+}
+.checked:before {
+	font-family: 'courier new';
+	content: "\2660";
+	position: absolute;
+	top: 10px;
+	left: -5px;
+}
